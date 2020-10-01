@@ -1,6 +1,4 @@
-body {
-  width: 33%;
-}
+
 
 #res {
   background-color: lightgray;
@@ -11,8 +9,8 @@ body {
 
 #btns button {
   width: 25%;
-  height: 36px;
-  font-size: 18px;
+  height: 55px;
+  font-size: 30px;
   margin:0;
   float: left;
 }
@@ -28,6 +26,29 @@ body {
 }
 
 #btnSum, #btnSub, #btnMul, #btnDiv {
-  background-color: black;
+  background-color: rgb(243, 239, 239);
   color: red;
+}
+.main{
+
+}
+.title{
+  text-align: center;
+  opacity: 99;
+}
+@media only screen and (max-width: 520px) {
+  
+#res {
+  background-color: lightgray;
+  border: solid;
+  height: 100px;
+  font-size: 20px;
+}
+#btns button {
+  width: 25%;
+  height: 100px;
+  font-size: 30px;
+  margin: 0;
+  float: left;}
+
 }
