@@ -12,7 +12,7 @@ function onButton(e) {
             var nums = /(\d+)/g;
             // Replace all base 2 nums with base 10 equivs
             expr = expr.replace(nums, function(match) {
-                return parseInt(match, 2);
+                return parseInt(match, 3);
             })
             // eval in base 10 and convert to base 2
             res.innerHTML = eval(expr).toString(2);
